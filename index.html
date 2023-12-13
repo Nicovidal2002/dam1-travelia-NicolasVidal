@@ -4,39 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dam1-travelia-NicolasVidal</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./Assets/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Heebo:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
     <article>
         <header>
-            <h2>Travelia</h2>
-            <ul>
-                <div>
-                    <li><img src="./img/tours.png" alt="Tours"></li>
+            <h2 id="Travelia">Travelia</h2>
+            <ul id="Cards">
+                <div id="Fcard">
+                    <li><img src="./img/tours.png" alt="Tours" id="Tours"></li>
                         <h2>Tours</h2>
                         <p>Our extensive knowledge allows us to curate the perfect blend of actiities and services, transforming your journey into a tapestry of memorable adventures.</p>
                 </div>
                 <div>
-                    <li><img src="./img/hikking.png" alt="Hikking"></li>
+                    <li><img src="./img/hikking.png" alt="Hikking" id="Hikking"></li>
                         <h2>Hikking</h2>
                         <p>Each jouret may begin with a single step, but some require a few more steps tah others.</p>
                 </div>
                 <div>
-                    <li><img src="./img/travel.png" alt="Travel"></li>
+                    <li><img src="./img/travel.png" alt="Travel" id="Travel"></li>
                         <h2>Travel</h2>
                         <p>We make booking and managing flights easy for business travel, but it also givs your team acess to exclusive corporate rates and discounts</p>
                 </div>
                 <div>
-                    <li><img src="./img/support.png" alt="Support"></li>
+                    <li><img src="./img/support.png" alt="Support" id="Support"></li>
                         <h2>Support</h2>
                         <p>You can choose from a wide range of support options to contact us.</p>
                 </div> 
             </ul>
         </header>
         <footer>
-            <img src="./img/sassolungo-mountain-italy.jpg" alt="Mountain">
-            <div>
+            <article id="Mont">
+                <img src="./img/sassolungo-mountain-italy.jpg" alt="Mountain" id="Mountain">
+            </article>
+            <div id="forma">
                 <form action="">
                     <h3>CONTACT US</h3>
                     <label for="fname"></label>
@@ -52,18 +57,22 @@
                     <legend>Comments</legend>
                     <textarea name="Comments" id="" cols="30" rows="10"></textarea>
                     <br><br>
-                    <button>Submit</button>
+                    <div id="Button">
+                        <input type="button" value="Submit">
+                    </div>
                 </form>
             </div>
             <ul>
                 <div>
-                    <nav>
+                    <nav id="Social">
                         <li><a href="https://web.telegram.org/a/" target="_blank"><img src="./img/telegram.png" alt="Telegram"></a></li>
                         <li><a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.png" alt="Instagram"></a></li>
                         <li><a href="https://www.youtube.com/" target="_blank"><img src="./img/youtube.png" alt="Youtube"></a></li>
                         <li><a href="https://www.tiktok.com/es/" target="_blank"><img src="./img/tiktok.png" alt="Tiktok"></a></li>
+                    </nav>
+                    <nav id="Copy">
                         <a href="https://www.freepik.es/" target="_blank">Images by rowpixel.com, juicy_fish and wirestock on Freepik </a>
-                        <p>&copy; 2023 Luis Nicolás Vidal Ramundo</p>
+                        <p id="Copy">&copy; 2023 Luis Nicolás Vidal Ramundo</p>
                     </nav>
                 </div>
             </ul>

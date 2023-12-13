@@ -1,3 +1,112 @@
 body{
     height: 100%;
+    background-color: gainsboro;
+    font-family: 'Heebo', sans-serif;
+    display: flex;
+
+
+}
+
+#Tours{
+    max-width: 60px;
+  
+}
+#Hikking{
+    max-width: 60px;
+  
+}
+#Travel{
+    max-width: 60px;
+  
+}
+#Support{
+    max-width: 60px;
+  
+}
+
+li{
+    list-style-type: none;
+}
+
+#Travelia{
+    font-family: 'Ephesis', cursive;
+    font-size: 2.5em;
+
+}
+
+nav a{
+    color: white;
+}
+
+nav a:hover{
+    color: gainsboro;
+}
+
+nav p{
+    color: white;
+}
+
+div#Button{
+background-color: #F42D59;
+color: white;
+padding: 16px 32px;
+cursor: pointer;
+z-index: 0;
+    
+}
+
+div#forma{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    background-color:white ;
+    z-index: 1;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#Mountain{
+    width: 100%;
+}
+
+#Social{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    margin: 0px;
+
+}
+
+#Copy{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav#Social img{
+    border-radius: 50%;
+    width: 40px;
+
+}
+
+#Cards{
+    display: flex;
+    justify-content: center;
+}
+
+#Fcard{
+    background-color: white;
+    z-index: 0;
+    width: 200px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
 }
